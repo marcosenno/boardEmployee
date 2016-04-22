@@ -34,7 +34,7 @@ namespace RFID_test
             ethernetJ11D.UseThisNetworkInterface();
             this.rfidReader.IdReceived += this.rfidReader_IdReceived;
             this.rfidReader.MalformedIdReceived += this.rfidReader_MalformedIdReceived;
-            this.camera.PictureCaptured += camera_PictureCaptured;
+            this.cam.PictureCaptured += camera_PictureCaptured;
         }
 
         void camera_PictureCaptured(Camera sender, GT.Picture e)
@@ -99,10 +99,10 @@ namespace RFID_test
             {
                 Debug.Print("RFID scanned: " + e);
                 scannedRFID = e;
-                if (camera.CameraReady)
+                if (cam.CameraReady)
                 {
                     authInProgress = true;
-                    camera.TakePicture();
+                    cam.TakePicture();
                     timeOutTimer.Start();
                     timeOutTimer.Tick += timeOutTimer_Tick;
                 }

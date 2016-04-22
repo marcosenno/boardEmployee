@@ -34,7 +34,7 @@ namespace RFID_test {
         private Gadgeteer.Modules.GHIElectronics.RFIDReader rfidReader;
         
         /// <summary>The Camera module using socket 3 of the mainboard.</summary>
-        private Gadgeteer.Modules.GHIElectronics.Camera camera;
+        private Gadgeteer.Modules.GHIElectronics.Camera cam;
         
         /// <summary>This property provides access to the Mainboard API. This is normally not necessary for an end user program.</summary>
         protected new static GHIElectronics.Gadgeteer.FEZSpider Mainboard {
@@ -64,7 +64,7 @@ namespace RFID_test {
             this.ethernetJ11D = new GTM.GHIElectronics.EthernetJ11D(7);
             this.multicolorLED = new GTM.GHIElectronics.MulticolorLED(11);
             this.rfidReader = new GTM.GHIElectronics.RFIDReader(4);
-            this.camera = new GTM.GHIElectronics.Camera(3);
+            this.cam = new GTM.GHIElectronics.Camera(3);
         }
     }
 }

@@ -25,6 +25,7 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Json.NetMF.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.DaisyLink.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.Serial.pe
@@ -42,6 +43,7 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Json.NetMF.pe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.DaisyLink.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.Serial.pdbx
@@ -59,6 +61,7 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Json.NetMF.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.DaisyLink.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.Serial.pdbx
@@ -76,6 +79,7 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Json.NetMF.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.DaisyLink.dll
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.dll
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.Serial.dll
@@ -93,6 +97,7 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.MulticolorLED.dll
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.RFIDReader.dll
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.USBClientEDP.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.dll
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.pdb
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.xml
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.DaisyLink.pdb
@@ -116,6 +121,8 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.MulticolorLED.xml
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.RFIDReader.xml
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.USBClientEDP.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.xml
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID test.csprojResolveAssemblyReference.cache
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\TinyCLR_DebugReferences.cache
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID_test.Resources.resources
@@ -128,10 +135,3 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\le\
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\le\RFID test.pdbx
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID test.exe
 C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID test.pdb
-C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Json.NetMF.pe
-C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Json.NetMF.pe
-C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Json.NetMF.pdbx
-C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Json.NetMF.pdbx
-C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.dll
-C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.pdb
-C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.xml
