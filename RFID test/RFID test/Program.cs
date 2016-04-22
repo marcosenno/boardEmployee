@@ -13,6 +13,8 @@ using GT = Gadgeteer;
 using GTM = Gadgeteer.Modules;
 using Gadgeteer.Modules.GHIElectronics;
 
+using Json.NETMF;
+
 namespace RFID_test
 {
     public partial class Program
@@ -47,14 +49,18 @@ namespace RFID_test
             }
         }
 
-        private void sendAuthRequest(string scannedRFID, GT.Picture capturedImage){
+        private void sendAuthRequest(string scannedRFID, GT.Picture capturedImage)
+        {
             /* Code for sending rfid and picture to webserver */
-            if (ethernetJ11D.IsNetworkUp){
+            if (true /*ethernetJ11D.IsNetworkUp*/)
+            {
                 string jsonString = getJsonString(scannedRFID, capturedImage);
-                POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
+                
+                /*POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
                 var req = HttpHelper.CreateHttpPostRequest(webserverUrl, jsonContent, "application/json");
                 req.ResponseReceived += new HttpRequest.ResponseHandler(req_ResponseReceived);
                 req.SendRequest();
+                 */
             }
             else
             {
@@ -78,24 +84,36 @@ namespace RFID_test
 
         string getJsonString(string scannedRFID, GT.Picture capturedImage)
         {
-            string jsonString = "";
-            return jsonString;
+            //string jsonString = "";
+            CRequestData testObj = new CRequestData();
+            testObj.RFID = scannedRFID;
+            testObj.image = capturedImage;
+            string json = JsonSerializer.SerializeObject(testObj);
+            Debug.Print(json);
+            return json;
         }
 
         private void rfidReader_IdReceived(RFIDReader sender, string e)
         {
-            Debug.Print("RFID scanned: " + e);
-            scannedRFID = e;
-            if (camera.CameraReady)
+            if (authInProgress == false)
             {
-                authInProgress = true;
-                camera.TakePicture();
-                timeOutTimer.Start();
-                timeOutTimer.Tick += timeOutTimer_Tick;
+                Debug.Print("RFID scanned: " + e);
+                scannedRFID = e;
+                if (camera.CameraReady)
+                {
+                    authInProgress = true;
+                    camera.TakePicture();
+                    timeOutTimer.Start();
+                    timeOutTimer.Tick += timeOutTimer_Tick;
+                }
+                else
+                {
+                    Debug.Print("Camera not ready");
+                }
             }
             else
             {
-                Debug.Print("Camera not ready");
+                Debug.Print("Authentication already in progress");
             }
             /*displayTE35.SimpleGraphics.Clear();
             displayTE35.SimpleGraphics.DisplayText("RFID scanned: " + e, fontNina, GT.Color.White, 10, 10);*/

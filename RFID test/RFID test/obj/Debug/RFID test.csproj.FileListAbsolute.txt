@@ -1,0 +1,137 @@
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\le\RFID test.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\be\RFID test.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\le\RFID test.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\be\RFID test.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\RFID test.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\RFID test.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\le\RFID test.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\le\RFID test.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\be\RFID test.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\be\RFID test.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.DaisyLink.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.Serial.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.SPI.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.WebClient.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.WebServer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHI.Hardware.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHI.Networking.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHI.Usb.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.Button.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.Camera.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.DaisyLink.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.Serial.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.SPI.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.WebClient.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.WebServer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHI.Hardware.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHI.Networking.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHI.Usb.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.Button.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.Camera.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.DaisyLink.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.Serial.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.SPI.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.WebClient.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Gadgeteer.WebServer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHI.Hardware.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHI.Networking.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHI.Usb.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.Button.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.DaisyLink.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.Serial.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.SPI.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.WebClient.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Gadgeteer.WebServer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHI.Hardware.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHI.Networking.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHI.Usb.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.Button.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.DaisyLink.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.Serial.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.SPI.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.WebClient.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.WebServer.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHI.Hardware.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHI.Networking.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHI.Usb.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.Button.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.Camera.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.DisplayTE35.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.EthernetJ11D.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.MulticolorLED.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.RFIDReader.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.USBClientEDP.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.DaisyLink.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.DaisyLink.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.Serial.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.Serial.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.SPI.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.SPI.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.WebClient.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.WebClient.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.WebServer.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Gadgeteer.WebServer.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHI.Hardware.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHI.Networking.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHI.Usb.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.Button.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.Camera.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.DisplayTE35.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.EthernetJ11D.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.MulticolorLED.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.RFIDReader.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\GTM.GHIElectronics.USBClientEDP.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID test.csprojResolveAssemblyReference.cache
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID_test.Resources.resources
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID test.csproj.GenerateResource.Cache
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID_test.Resources.tinyresources
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\TinyResGen.cache
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\be\RFID test.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\be\RFID test.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\le\RFID test.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\le\RFID test.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID test.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\obj\Debug\RFID test.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Json.NetMF.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Json.NetMF.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\LE\Json.NetMF.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\BE\Json.NetMF.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\RFID test\RFID test\bin\Debug\Json.NetMF.xml
