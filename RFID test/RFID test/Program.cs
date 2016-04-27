@@ -93,8 +93,13 @@ namespace RFID_test
             return json;
         }
 
+        private GT.Timer cameraRetryTimer = new GT.Timer(100);
+        int cameraRetryCount;
+
         private void rfidReader_IdReceived(RFIDReader sender, string e)
         {
+            //cameraRetryTimer.Tick += cameraRetryTimer_Tick;
+            timeOutTimer.Tick += timeOutTimer_Tick;
             if (authInProgress == false)
             {
                 Debug.Print("RFID scanned: " + e);
@@ -104,11 +109,13 @@ namespace RFID_test
                     authInProgress = true;
                     cam.TakePicture();
                     timeOutTimer.Start();
-                    timeOutTimer.Tick += timeOutTimer_Tick;
                 }
                 else
                 {
-                    Debug.Print("Camera not ready");
+                    Debug.Print("Camera not ready");   
+                     /* cameraRetryTimer.Start();
+                    cameraRetryCount = 0;
+                     */
                 }
             }
             else
@@ -118,6 +125,27 @@ namespace RFID_test
             /*displayTE35.SimpleGraphics.Clear();
             displayTE35.SimpleGraphics.DisplayText("RFID scanned: " + e, fontNina, GT.Color.White, 10, 10);*/
         }
+        /*
+        void cameraRetryTimer_Tick(GT.Timer timer)
+        {
+            if (cam.CameraReady)
+            {
+                authInProgress = true;
+                cam.TakePicture();
+                timeOutTimer.Start();
+                cameraRetryTimer.Stop();
+            }
+            else
+            {
+                if (cameraRetryCount > 10)
+                {
+                    Debug.Print("Not able to take picture");
+                    cameraRetryTimer.Stop();
+                }
+                cameraRetryCount += 1;
+                Debug.Print("Camera retry count: " + cameraRetryCount.ToString());
+            }
+        }*/
 
         void timeOutTimer_Tick(GT.Timer timer)
         {
