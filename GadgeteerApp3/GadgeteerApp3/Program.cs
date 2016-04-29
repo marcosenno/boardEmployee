@@ -33,6 +33,7 @@ namespace GadgeteerApp3
             displayText("Program Started");
             ethernetJ11D.UseStaticIP("192.168.1.202", "255.255.255.0", "192.168.1.2");
             ethernetJ11D.UseThisNetworkInterface();
+            
             /*
             timer = new GT.Timer(300);
             timer.Tick += timer_tick;
@@ -124,7 +125,8 @@ namespace GadgeteerApp3
             if (ethernetJ11D.IsNetworkUp)
             {                
                 string jsonString = getJsonString(scannedRFID, capturedImage);
-                displayText("JSON string: " + jsonString);
+                //displayText("JSON string: " + jsonString);
+                Debug.Print("JSON string: " + jsonString);
                 displayText("Network up. Trying to send authentication request..");
                 
                 POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
@@ -133,11 +135,12 @@ namespace GadgeteerApp3
                 //var req = HttpHelper.CreateHttpGetRequest("http://192.168.1.2:8008/DEMOService/prova");
                 req.ResponseReceived += new HttpRequest.ResponseHandler(req_ResponseReceived);
                 req.SendRequest();
+                displayText("Request sended!");
             }
             else
             {
                 string jsonString = getJsonString(scannedRFID, capturedImage);
-                displayText("JSON string: " + jsonString);
+                //displayText("JSON string: " + jsonString);
                 displayText("Authentication failed because network is down");
             }
 
@@ -178,18 +181,25 @@ namespace GadgeteerApp3
             Class1 testObj = new Class1();
             testObj.rfid = scannedRFID;
             byte[] imageByteArray = capturedImage.PictureData; //capturedImage.MakeBitmap().GetBitmap();
-            Debug.Print("array length: " + imageByteArray.Length.ToString());
+            //Bitmap b = capturedImage.MakeBitmap();
+            //Bitmap b2 = new Bitmap(30, 30);
+            //b2.Scale9Image(30, 30, 30, 30, b, 0, 0, 0, 0, 1);
+            //Debug.Print("array length: " + imageByteArray.Length.ToString());
             try
             {
-                testObj.photo = Convert.ToBase64String(imageByteArray); //"hsdaspjd324ji2p34j";
+                //testObj.photo = b2.GetBitmap(); //imageByteArray; //Convert.ToBase64String(imageByteArray); //"hsdaspjd324ji2p34j";
+                displayText("Start Convert64");
+                string img = Convert.ToBase64String(imageByteArray);
+                displayText("End Convert64");
+                json = "{\"rfid\":\""+scannedRFID+"\",\"photo\":\""+img+"\"}";
             }
             catch
             {
                 displayText("Problem converting image to str");
             }
             try
-            {              
-                json = JsonSerializer.SerializeObject(testObj);
+            {
+                //json = JsonSerializer.SerializeObject(testObj);
             }
             catch
             {
@@ -229,8 +239,8 @@ namespace GadgeteerApp3
         private void displayText(string text)
         {
             Debug.Print(text);
-            //displayTE35.SimpleGraphics.Clear();
-            //displayTE35.SimpleGraphics.DisplayText(text, fontNina, GT.Color.White, 10, 10);
+            displayTE35.SimpleGraphics.Clear();
+            displayTE35.SimpleGraphics.DisplayText(text, fontNina, GT.Color.White, 10, 10);
         }
 
     }

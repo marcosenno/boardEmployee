@@ -7,6 +7,6 @@ namespace GadgeteerApp3
     class Class1
     {
         public string rfid { get; set; }
-        public string photo { get; set; }
+        public byte[] photo { get; set; }
     }
 }
