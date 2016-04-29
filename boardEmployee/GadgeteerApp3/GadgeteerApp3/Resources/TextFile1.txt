@@ -1,0 +1,8 @@
+<Glide>
+	<Window Name="window" Width="320" Height="240" BackColor="dce3e7">
+		<Button Name="red" X="20" Y="20" Width="100" Height="30" Alpha="255" Text="Red" Font="4" FontColor="000000" DisabledFontColor="808080" TintColor="000000" TintAmount="0"/>
+		<Button Name="green" X="60" Y="60" Width="100" Height="30" Alpha="255" Text="Green" Font="4" FontColor="000000" DisabledFontColor="808080" TintColor="000000" TintAmount="0"/>
+		<Button Name="blue" X="120" Y="120" Width="100" Height="30" Alpha="255" Text="Blue" Font="4" FontColor="000000" DisabledFontColor="808080" TintColor="000000" TintAmount="0"/>
+		<Button Name="white" X="180" Y="180" Width="100" Height="30" Alpha="255" Text="White" Font="4" FontColor="000000" DisabledFontColor="808080" TintColor="000000" TintAmount="0"/>
+	</Window>
+</Glide>
