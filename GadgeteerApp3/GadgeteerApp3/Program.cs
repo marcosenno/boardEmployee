@@ -11,7 +11,8 @@ using Gadgeteer.Modules.GHIElectronics;
 //using GHI.Glide;
 //using GHI.Glide.Display;
 using Json.NETMF;
-
+using System.Net.Sockets;
+using System.Net;
 
 namespace GadgeteerApp3
 {
@@ -42,11 +43,11 @@ namespace GadgeteerApp3
             Thread.Sleep(1000);
             multicolorLED.TurnOff();
 
-            //timer.Start();
-
+            timer.Start();
+            */
             button.ButtonPressed += buttonPressed;
 
-            displayTE35.SimpleGraphics.DisplayRectangle(GT.Color.Magenta, 2, GT.Color.Black, 1, 1, 100, 100);
+            /*displayTE35.SimpleGraphics.DisplayRectangle(GT.Color.Magenta, 2, GT.Color.Black, 1, 1, 100, 100);
             Thread bouncer = new Thread(BouncerLoop);
             //bouncer.Start();
             */
@@ -58,17 +59,27 @@ namespace GadgeteerApp3
 
             rfidReader.IdReceived += rfidReader_IdReceived;
             camera.PictureCaptured += PictureCaptured;
+            camera.CurrentPictureResolution = Camera.PictureResolution.Resolution320x240;
+            camera.BitmapStreamed += camera_BitmapStreamed;
+
             //displayTE35.WPFWindow.TouchDown += new Microsoft.SPOT.Input.TouchEventHandler(touch_down);
 
         
+        }
+
+        void camera_BitmapStreamed(Camera sender, Bitmap e)
+        {
+            displayTE35.SimpleGraphics.Clear();
+            displayTE35.SimpleGraphics.DisplayImage(e, 0, 0);
         }
 
         private void rfidReader_IdReceived(RFIDReader sender, string e)
         {
             if (authInProgress == false)
             {
-                displayText("RFID scanned: " + e);
+                //displayText("RFID scanned: " + e);
                 scannedRFID = e;
+                camera.StopStreaming();
                 if (camera.CameraReady)
                 {
                     authInProgress = true;
@@ -91,7 +102,9 @@ namespace GadgeteerApp3
 
 
         void PictureCaptured(Camera sender, GT.Picture picture) {
-            displayText("Picture captured");
+            //displayText("Picture captured");
+            displayTE35.SimpleGraphics.Clear();
+            displayTE35.SimpleGraphics.DisplayImage(picture, 0, 0);
             if (authInProgress)
             {
                 sendAuthRequest(scannedRFID, picture);
@@ -123,11 +136,30 @@ namespace GadgeteerApp3
         {
             /* Code for sending rfid and picture to webserver */
             if (ethernetJ11D.IsNetworkUp)
-            {                
+            {
+                IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
+                Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+                try
+                {
+                    clientSocket.Connect(ipep);
+                    //Debug.Print("Socket connected to " + clientSocket.RemoteEndPoint.ToString());
+                    MySocketFunctions.socketSendFile(clientSocket, capturedImage.PictureData);
+                    string response = MySocketFunctions.socketReadLine(clientSocket);
+                    //Debug.Print("Response is: " + response);
+                }
+                catch {
+                    Debug.Print("Socket error");
+                }
+
+                clientSocket.Close();
+                authInProgress = false;
+                return;
+
                 string jsonString = getJsonString(scannedRFID, capturedImage);
                 //displayText("JSON string: " + jsonString);
-                Debug.Print("JSON string: " + jsonString);
-                displayText("Network up. Trying to send authentication request..");
+                //Debug.Print("JSON string: " + jsonString);
+                //displayText("Network up. Trying to send authentication request..");
                 
                 POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
                 var req = HttpHelper.CreateHttpPostRequest(webserverUrl, jsonContent, "application/json");
@@ -135,7 +167,7 @@ namespace GadgeteerApp3
                 //var req = HttpHelper.CreateHttpGetRequest("http://192.168.1.2:8008/DEMOService/prova");
                 req.ResponseReceived += new HttpRequest.ResponseHandler(req_ResponseReceived);
                 req.SendRequest();
-                displayText("Request sended!");
+                //displayText("Request sended!");
             }
             else
             {
@@ -180,16 +212,18 @@ namespace GadgeteerApp3
             string json = "";
             Class1 testObj = new Class1();
             testObj.rfid = scannedRFID;
-            byte[] imageByteArray = capturedImage.PictureData; //capturedImage.MakeBitmap().GetBitmap();
+            //byte[] imageByteArray = capturedImage.PictureData; //capturedImage.MakeBitmap().GetBitmap();
             //Bitmap b = capturedImage.MakeBitmap();
+            GT.Picture pic = new GT.Picture(capturedImage.PictureData, GT.Picture.PictureEncoding.JPEG);
             //Bitmap b2 = new Bitmap(30, 30);
             //b2.Scale9Image(30, 30, 30, 30, b, 0, 0, 0, 0, 1);
             //Debug.Print("array length: " + imageByteArray.Length.ToString());
             try
             {
                 //testObj.photo = b2.GetBitmap(); //imageByteArray; //Convert.ToBase64String(imageByteArray); //"hsdaspjd324ji2p34j";
-                displayText("Start Convert64");
-                string img = Convert.ToBase64String(imageByteArray);
+                displayText("Start Convert64 pictureSize: " + pic.PictureData.Length);
+                Convert.UseRFC4648Encoding = true;
+                string img = Convert.ToBase64String(pic.PictureData);
                 displayText("End Convert64");
                 json = "{\"rfid\":\""+scannedRFID+"\",\"photo\":\""+img+"\"}";
             }
@@ -225,7 +259,7 @@ namespace GadgeteerApp3
 
             if (camera.CameraReady)
             {
-                camera.TakePicture();
+                camera.StartStreaming();
             }
             
         }
