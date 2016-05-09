@@ -139,40 +139,24 @@ namespace GadgeteerApp3
             {
                 IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
                 Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-
-                try
-                {
-                    clientSocket.Connect(ipep);
-                    //Debug.Print("Socket connected to " + clientSocket.RemoteEndPoint.ToString());
-                    MySocketFunctions.socketSendFile(clientSocket, capturedImage.PictureData);
-                    string response = MySocketFunctions.socketReadLine(clientSocket);
-                    //Debug.Print("Response is: " + response);
-                }
-                catch {
-                    Debug.Print("Socket error");
-                }
-
+                string hashSession = ""; 
+                clientSocket.Connect(ipep);
+                MySocketFunctions.socketSendFile(clientSocket, capturedImage.PictureData);
+                hashSession = MySocketFunctions.socketReadLine(clientSocket);
                 clientSocket.Close();
                 authInProgress = false;
-                return;
+                string jsonString = "{\"rfid\":\"" + scannedRFID + "\",\"session\":\"" + hashSession + "\"}";
 
-                string jsonString = getJsonString(scannedRFID, capturedImage);
-                //displayText("JSON string: " + jsonString);
-                //Debug.Print("JSON string: " + jsonString);
-                //displayText("Network up. Trying to send authentication request..");
                 
                 POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
                 var req = HttpHelper.CreateHttpPostRequest(webserverUrl, jsonContent, "application/json");
-                
                 //var req = HttpHelper.CreateHttpGetRequest("http://192.168.1.2:8008/DEMOService/prova");
                 req.ResponseReceived += new HttpRequest.ResponseHandler(req_ResponseReceived);
                 req.SendRequest();
-                //displayText("Request sended!");
+                displayText("Request sended!");
             }
             else
             {
-                string jsonString = getJsonString(scannedRFID, capturedImage);
-                //displayText("JSON string: " + jsonString);
                 displayText("Authentication failed because network is down");
             }
 
@@ -183,7 +167,7 @@ namespace GadgeteerApp3
         void req_ResponseReceived(HttpRequest sender, HttpResponse response)
         {
             displayText("Response received");
-            displayText("Response status code: " + response.StatusCode + ", text: "+response.Text);
+            displayText(response.Text);
             if (response.StatusCode != "200")
             {
                 displayText("Network down error");
@@ -192,58 +176,6 @@ namespace GadgeteerApp3
 
             
         }
-
-        string getJsonString(string scannedRFID, GT.Picture capturedImage)
-        {
-            /*Class1 class1 = new Class1();
-            class1.MyProperty = 3;
-            class1.image = Convert.ToBase64String(picture.MakeBitmap().GetBitmap());
-            
-            try
-            {
-                string json = JsonSerializer.SerializeObject(class1);
-                Debug.Print("json: " + json);
-            }
-            catch
-            {
-                Debug.Print("serialize error");
-            }*/
-            //string jsonString = "";
-            string json = "";
-            Class1 testObj = new Class1();
-            testObj.rfid = scannedRFID;
-            //byte[] imageByteArray = capturedImage.PictureData; //capturedImage.MakeBitmap().GetBitmap();
-            //Bitmap b = capturedImage.MakeBitmap();
-            GT.Picture pic = new GT.Picture(capturedImage.PictureData, GT.Picture.PictureEncoding.JPEG);
-            //Bitmap b2 = new Bitmap(30, 30);
-            //b2.Scale9Image(30, 30, 30, 30, b, 0, 0, 0, 0, 1);
-            //Debug.Print("array length: " + imageByteArray.Length.ToString());
-            try
-            {
-                //testObj.photo = b2.GetBitmap(); //imageByteArray; //Convert.ToBase64String(imageByteArray); //"hsdaspjd324ji2p34j";
-                displayText("Start Convert64 pictureSize: " + pic.PictureData.Length);
-                Convert.UseRFC4648Encoding = true;
-                string img = Convert.ToBase64String(pic.PictureData);
-                displayText("End Convert64");
-                json = "{\"rfid\":\""+scannedRFID+"\",\"photo\":\""+img+"\"}";
-            }
-            catch
-            {
-                displayText("Problem converting image to str");
-            }
-            try
-            {
-                //json = JsonSerializer.SerializeObject(testObj);
-            }
-            catch
-            {
-                displayText("serialize error");
-            }
-            //Debug.Print(json);
-            return json;
-            //return "";
-        }
-
 
         void buttonPressed(Button sender, Button.ButtonState state)
         {
