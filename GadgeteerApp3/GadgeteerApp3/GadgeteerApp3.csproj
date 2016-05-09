@@ -39,7 +39,7 @@
   <!-- Everything below here is custom to .NET MF / Gadgeteer template-->
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CJsonSerialize.cs" />
     <Compile Include="MySocketFunctions.cs" />
     <Compile Include="Program.generated.cs">
       <AutoGen>True</AutoGen>
@@ -138,5 +138,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\mainWindowXML.txt" />
   </ItemGroup>
 </Project>

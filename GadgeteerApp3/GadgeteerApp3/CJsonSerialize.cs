@@ -4,9 +4,9 @@ using GT = Gadgeteer;
 
 namespace GadgeteerApp3
 {
-    class Class1
+    class CJsonSerialize
     {
         public string rfid { get; set; }
-        public byte[] photo { get; set; }
+        public string session { get; set; }
     }
 }
