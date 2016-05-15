@@ -20,11 +20,12 @@ namespace GadgeteerApp3
     public partial class Program
     {
         bool waitingForRfid = false;
-
+        bool OkPressed = false;
+        int currenRequestType = 0;  //0 - no request, 1 - enter, 2 - exit
         private string scannedRFID;
         private Boolean authInProgress = false;
         //private Boolean networkUp = false;
-        GT.Timer timeOutTimer = new GT.Timer(10000);
+        GT.Timer timeOutTimer = new GT.Timer(15000);
         private string webserverUrl = "http://192.168.1.2:8008/DEMOService/enter";
         Font fontNina = Resources.GetFont(Resources.FontResources.NinaB);
 
@@ -33,7 +34,9 @@ namespace GadgeteerApp3
         private static TextBlock txtScreen;
         private static GHI.Glide.UI.Button btnEnter;
         private static GHI.Glide.UI.Button btnExit;
+        private static GHI.Glide.UI.Button btnOk;
         private static ProgressBar barProgress;
+        private static GHI.Glide.UI.Image imgPhoto;
 
         // This method is run when the mainboard is powered up or reset.   
         void ProgramStarted()
@@ -55,123 +58,204 @@ namespace GadgeteerApp3
             rfidReader.IdReceived += rfidReader_IdReceived;
             camera.PictureCaptured += PictureCaptured;
             camera.CurrentPictureResolution = Camera.PictureResolution.Resolution320x240;
-
+            camera.TakePictureStreamTimeout = new System.TimeSpan(0, 0, 0);
             timeOutTimer.Tick += timeOutTimer_Tick;
-            //camera.BitmapStreamed += camera_BitmapStreamed;
-
-            //displayTE35.WPFWindow.TouchDown += new Microsoft.SPOT.Input.TouchEventHandler(touch_down);
+            camera.BitmapStreamed += camera_BitmapStreamed;
 
         
         }
 
 
-
-        GT.Timer timerProgressBar = new GT.Timer(200);
-        private int progressCount = 0;
-
         void initWindow()
         {
             btnEnter = (GHI.Glide.UI.Button)mainWindow.GetChildByName("btnEnter");
             btnExit = (GHI.Glide.UI.Button)mainWindow.GetChildByName("btnExit");
+            btnOk = (GHI.Glide.UI.Button)mainWindow.GetChildByName("btnOk");
             txtNetworkStatus = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtNetworkStatus");
             txtScreen = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtText");
             barProgress = (GHI.Glide.UI.ProgressBar)mainWindow.GetChildByName("barRfidTime");
+            imgPhoto = (GHI.Glide.UI.Image)mainWindow.GetChildByName("imgPhoto");
+            imgPhoto.Stretch = true;
 
-            barProgress.Visible = false;
-            mainWindow.Graphics.DrawRectangle(barProgress.Rect, mainWindow.BackColor, 255);
-            barProgress.Invalidate();
-
-            changeScreenText("");
+            displayDefaultScreen();
 
             btnEnter.TapEvent += btnEnter_TapEvent;
             btnExit.TapEvent += btnExit_TapEvent;
+            btnOk.TapEvent += btnOk_TapEvent;
 
-            timerProgressBar.Tick += timerProgressBar_Tick;
+
         }
 
-        /*
-        void camera_BitmapStreamed(Camera sender, Bitmap e)
+        void displayDefaultScreen()
         {
-            displayTE35.SimpleGraphics.Clear();
-            displayTE35.SimpleGraphics.DisplayImage(e, 0, 0);
+            Debug.Print("displayDefaultScreen() called");
+            currenRequestType = 0;
+            multicolorLED.TurnOff();
+            camera.StopStreaming();
+            btnEnter.Visible = true;
+            btnExit.Visible = true;
+
+
+
+            btnOk.Visible = false;
+            txtScreen.Visible = false;
+            barProgress.Visible = false;
+            imgPhoto.Visible = false;
+
+            mainWindow.Invalidate();
         }
-         */
+
 
         void btnExit_TapEvent(object sender)
         {
-            waitingForRfid = true;
-            changeButtonStates(false);
-            progressCount = 0;
-            timerProgressBar.Start();
+            Debug.Print("btnExit pressed");
+            currenRequestType = 2;
+            startRfidWaiting();
         }
 
         void btnEnter_TapEvent(object sender)
         {
+            Debug.Print("btnEnter pressed");
+            currenRequestType = 1;
+            startRfidWaiting();
+        }
+
+        void startRfidWaiting()
+        {
+            Debug.Print("startRfidWaiting() called");
             waitingForRfid = true;
-            changeButtonStates(false);
-            progressCount = 0;
-            timerProgressBar.Start();
+
+            btnEnter.Visible = false;
+            btnExit.Visible = false;
+
+
+            btnOk.Visible = false;
+
+            txtScreen.Visible = true;
+            txtScreen.Text = "Align face and scan RFID";
+
+            barProgress.Visible = true;
+            barProgress.Value = 0;
+            imgPhoto.Visible = true;
+            imgPhoto.Alpha = 0;
+
+            mainWindow.Invalidate();
+
+            //camera.CurrentPictureResolution = Camera.PictureResolution.Resolution320x240;
+            try
+            {
+                camera.StartStreaming();
+            }
+            catch
+            {
+                Debug.Print("Not able to start streaming");
+            }
+
+
+            Thread RfidThread = new Thread(RfidWait);
+            RfidThread.Start();
+
+
+
+        }
+
+        void RfidWait(){
+            int progressCount = 0;
+            while ((progressCount <= 20) && (waitingForRfid == true))
+            {
+
+                barProgress.Value = progressCount * 5;
+                barProgress.Invalidate();
+                progressCount++;
+                Thread.Sleep(500);
+                
+            }
+            if (progressCount > 20)
+            {
+                cancelWaitingRfid();
+                displayMessage("No RFID detected within time", true);
+
+            }
+                                  
+        }
+
+        void camera_BitmapStreamed(Camera sender, Bitmap e)
+        {
+            imgPhoto.Bitmap = e;
+            imgPhoto.Alpha = 255;
+            imgPhoto.Invalidate();
+        }
+
+
+
+        void displayMessage(string strMessage, bool OkEnabled)
+        {
+            Debug.Print("displayMessage() called");
+            camera.StopStreaming();
+            btnEnter.Visible = false;
+            btnExit.Visible = false;
+            barProgress.Visible = false;
+
+            if (OkEnabled)
+            {
+                OkPressed = false;
+                Thread OkThread = new Thread(OkWait);
+                OkThread.Start();
+            }
+
+            txtScreen.Visible = true;
+            txtScreen.Text = strMessage;
+
+            mainWindow.Invalidate();
+        }
+
+        void OkWait()
+        {
+            int i = 5;
+            //btnOk.Text = "OK (5sec)";
+            btnOk.Visible = true;
+            while (i > 0 && OkPressed == false)
+            {
+                btnOk.Text = "OK (" + i.ToString() + "sec)";
+                btnOk.Invalidate();
+                i--;
+                Thread.Sleep(1000);
+            }
+            if (i <= 0)
+            {
+                displayDefaultScreen();
+            }
+            
+        }
+
+        void btnOk_TapEvent(object sender)
+        {
+            Debug.Print("btnOk pressed");
+            OkPressed = true;
+            displayDefaultScreen();
         }
 
         void cancelWaitingRfid()
         {
-            //changeButtonStates(true);
+            Debug.Print("cancelWaitingRfid() called");
             waitingForRfid = false;
-            timerProgressBar.Stop();
-            mainWindow.Graphics.DrawRectangle(barProgress.Rect, mainWindow.BackColor, 255);
+            camera.StopStreaming();
             barProgress.Visible = false;
-            barProgress.Alpha = 0;
-            barProgress.Invalidate();
+            mainWindow.Invalidate();
             
             
         }
 
-        void changeScreenText(string text)
-        {
-            txtScreen.Text = text;
-            mainWindow.Graphics.DrawRectangle(txtScreen.Rect, mainWindow.BackColor, 255);
-            txtScreen.Invalidate();
-        }
-
-        void timerProgressBar_Tick(GT.Timer timer)
-        {
-            if (progressCount <= 20)
-            {
-                barProgress.Value = progressCount * 5;
-                barProgress.Visible = true;
-                barProgress.Alpha = 255;
-                barProgress.Invalidate();
-                changeScreenText("Scan your RFID");
-                progressCount++;
-
-            }
-            else
-            {
-                cancelWaitingRfid();
-                changeButtonStates(true);
-                changeScreenText("No RFID detected within time");
-            }
-        }
-
-        void changeButtonStates(bool enabled)
-        {
-            btnEnter.Enabled = enabled;
-            btnExit.Enabled = enabled;
-            btnEnter.Invalidate();
-            btnExit.Invalidate();
-        }
 
         void ethernetJ11D_NetworkUp(GTM.Module.NetworkModule sender, GTM.Module.NetworkModule.NetworkState state)
         {
             txtNetworkStatus.Text = "Network is up, IP: " + ethernetJ11D.NetworkSettings.IPAddress;
-            mainWindow.Graphics.DrawRectangle(txtNetworkStatus.Rect, mainWindow.BackColor, 255);
             txtNetworkStatus.Invalidate();
         }
 
         void ethernetJ11D_NetworkDown(GTM.Module.NetworkModule sender, GTM.Module.NetworkModule.NetworkState state)
         {
             txtNetworkStatus.Text = "Network is down";
-            mainWindow.Graphics.DrawRectangle(txtNetworkStatus.Rect, mainWindow.BackColor, 255);
             txtNetworkStatus.Invalidate();
         }
 
@@ -179,8 +263,7 @@ namespace GadgeteerApp3
         {
             authInProgress = false;
             timeOutTimer.Stop();
-            changeButtonStates(true);
-            changeScreenText("No resonse received within time");
+            displayMessage("No response received within time", true);
 
         }
 
@@ -195,8 +278,13 @@ namespace GadgeteerApp3
                     scannedRFID = e;
                     if (camera.CameraReady)
                     {
-                        changeScreenText("RFID scanned, connecting to server..");
+                        displayMessage("RFID scanned, capturing photo..", false);
                         authInProgress = true;
+                        //camera.CurrentPictureResolution = Camera.PictureResolution.Resolution320x240;
+                        if (camera.CameraReady == false)
+                        {
+                            Debug.Print("Resolution changed and camera not ready");
+                        }
                         camera.TakePicture();
                         timeOutTimer.Start();
                     }
@@ -221,10 +309,13 @@ namespace GadgeteerApp3
         void PictureCaptured(Camera sender, GT.Picture picture)
         {
             Debug.Print("Picture captured");
-            /*
-            displayTE35.SimpleGraphics.Clear();
-            displayTE35.SimpleGraphics.DisplayImage(picture, 0, 0);
-             */
+
+            imgPhoto.Bitmap = picture.MakeBitmap();
+            imgPhoto.Alpha = 255;
+            imgPhoto.Invalidate();
+
+            displayMessage("Picture captured, connecting to server..", false);
+
             if (authInProgress)
             {
                 sendAuthRequest(scannedRFID, picture);
@@ -280,8 +371,7 @@ namespace GadgeteerApp3
             else
             {
                 Debug.Print("Authentication failed because network is down");
-                changeScreenText("Network down, check cable");
-                changeButtonStates(true);
+                displayMessage("Network down, check cable", true);
                 authInProgress = false;
                 timeOutTimer.Stop();
             }
@@ -293,30 +383,42 @@ namespace GadgeteerApp3
 
         void handleResponseMessage(string strJson){
             Hashtable hashTable = JsonSerializer.DeserializeString(strJson) as Hashtable;
-            //int responseCode = hashTable["code"];
+            string responseCode = hashTable["code"].ToString();
+            Debug.Print("response code: " + responseCode);
             string respnseMessage = hashTable["message"].ToString();
-            changeScreenText(respnseMessage);
+            
+            if (currenRequestType == 1)
+            {
+                if (responseCode == "200"){
+                    multicolorLED.TurnGreen();
+                }
+                else if (responseCode == "404")
+                {
+                    multicolorLED.TurnRed();
+                }
+                
+            }
+            
+            displayMessage(respnseMessage, true);
         }
+
 
         void req_ResponseReceived(HttpRequest sender, HttpResponse response)
         {
             Debug.Print("Response received");
             if (authInProgress)
             {
-                
-                //changeScreenText(response.Text);
-                //Debug.Print(response.Text);
+              
+                Debug.Print(response.Text);
                 if (response.StatusCode == "200")
                 {
                     handleResponseMessage(response.Text);
-                    //networkUp = false;
                 }
                 else
                 {
                     Debug.Print("Network down error");
                 }
             }
-            changeButtonStates(true);
             authInProgress = false;
             timeOutTimer.Stop();
 
