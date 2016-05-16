@@ -26,7 +26,7 @@ namespace GadgeteerApp3
         private Boolean authInProgress = false;
         //private Boolean networkUp = false;
         GT.Timer timeOutTimer = new GT.Timer(15000);
-        private string webserverUrl = "http://192.168.1.2:8008/DEMOService/enter";
+        private string webserverUrl;// = "http://192.168.1.2:8008/DEMOService/enter";
         Font fontNina = Resources.GetFont(Resources.FontResources.NinaB);
 
         private static Window mainWindow;
@@ -356,6 +356,15 @@ namespace GadgeteerApp3
 
 
                     POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
+
+                    if (currenRequestType == 1)
+                    {
+                        webserverUrl = "http://192.168.1.2:8008/DEMOService/enter";
+                    }
+                    else if (currenRequestType == 2)
+                    {
+                        webserverUrl = "http://192.168.1.2:8008/DEMOService/exit";
+                    }
                     var req = HttpHelper.CreateHttpPostRequest(webserverUrl, jsonContent, "application/json");
                     //var req = HttpHelper.CreateHttpGetRequest("http://192.168.1.2:8008/DEMOService/prova");
                     req.ResponseReceived += new HttpRequest.ResponseHandler(req_ResponseReceived);
@@ -382,17 +391,19 @@ namespace GadgeteerApp3
         }
 
         void handleResponseMessage(string strJson){
+            //Debug.Print("Received response: " + strJson);
             Hashtable hashTable = JsonSerializer.DeserializeString(strJson) as Hashtable;
             string responseCode = hashTable["code"].ToString();
-            Debug.Print("response code: " + responseCode);
+            //Debug.Print("response code: " + responseCode);
             string respnseMessage = hashTable["message"].ToString();
             
             if (currenRequestType == 1)
             {
-                if (responseCode == "200"){
+                if (responseCode == "200") //entry of exit was success
+                {
                     multicolorLED.TurnGreen();
                 }
-                else if (responseCode == "404")
+                else  //Error response received
                 {
                     multicolorLED.TurnRed();
                 }
@@ -416,11 +427,13 @@ namespace GadgeteerApp3
                 }
                 else
                 {
-                    Debug.Print("Network down error");
+                    Debug.Print("Error response, status code: "+response.StatusCode);
+                    displayMessage("Response: " + response.Text, true);
                 }
             }
             authInProgress = false;
             timeOutTimer.Stop();
+            currenRequestType = 0;
 
         }
 
