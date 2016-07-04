@@ -21,7 +21,7 @@ namespace GadgeteerApp3
     {
         bool waitingForRfid = false;        //if false and RFID is received then no action is taken
         bool OkPressed = false;
-        int currenRequestType = 0;  //0 - no request, 1 - enter, 2 - exit
+        int currentRequestType = 0;  //0 - no request, 1 - enter, 2 - exit
         private string scannedRFID;
         private Boolean authInProgress = false;
         //private Boolean networkUp = false;
@@ -37,6 +37,7 @@ namespace GadgeteerApp3
         private static GHI.Glide.UI.Button btnOk;
         private static ProgressBar barProgress;
         private static GHI.Glide.UI.Image imgPhoto;
+        private static TextBlock txtRectangle;
 
         // This method is run when the mainboard is powered up or reset.   
         void ProgramStarted()
@@ -73,6 +74,7 @@ namespace GadgeteerApp3
             btnOk = (GHI.Glide.UI.Button)mainWindow.GetChildByName("btnOk");
             txtNetworkStatus = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtNetworkStatus");
             txtScreen = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtText");
+            txtRectangle = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtRectangle");
             barProgress = (GHI.Glide.UI.ProgressBar)mainWindow.GetChildByName("barRfidTime");
             imgPhoto = (GHI.Glide.UI.Image)mainWindow.GetChildByName("imgPhoto");
             imgPhoto.Stretch = true;    //fits the 320x240 streaming picture in 160x120 image component on window
@@ -89,7 +91,7 @@ namespace GadgeteerApp3
         void displayDefaultScreen()     //display default screen with only ENTER and EXIT buttons
         {
             Debug.Print("displayDefaultScreen() called");
-            currenRequestType = 0;      //no active request
+            currentRequestType = 0;      //no active request
             multicolorLED.TurnOff();
             camera.StopStreaming();
             btnEnter.Visible = true;
@@ -101,6 +103,7 @@ namespace GadgeteerApp3
             txtScreen.Visible = false;
             barProgress.Visible = false;
             imgPhoto.Visible = false;
+            txtRectangle.Visible = false;
 
             mainWindow.Invalidate();
         }
@@ -109,14 +112,14 @@ namespace GadgeteerApp3
         void btnExit_TapEvent(object sender)        // EXIT button pressed on screen
         {
             Debug.Print("btnExit pressed");
-            currenRequestType = 2;      //2 - exit
+            currentRequestType = 2;      //2 - exit
             startRfidWaiting();
         }
 
         void btnEnter_TapEvent(object sender)        // ENTER button pressed on screen
         {
             Debug.Print("btnEnter pressed");
-            currenRequestType = 1;      //1 - enter
+            currentRequestType = 1;      //1 - enter
             startRfidWaiting();
         }
 
@@ -189,7 +192,7 @@ namespace GadgeteerApp3
 
         void displayMessage(string strMessage, bool OkEnabled)      //display message and optionally OK button with timer on the screen
         {
-            Debug.Print("displayMessage() called");
+            Debug.Print("displayMessage() called, message:" + strMessage);
             camera.StopStreaming();
             btnEnter.Visible = false;
             btnExit.Visible = false;
@@ -259,9 +262,12 @@ namespace GadgeteerApp3
 
         void timeOutTimer_Tick(GT.Timer timer)      //called when specified time has elapsed
         {
-            authInProgress = false;
-            timeOutTimer.Stop();
-            displayMessage("No response received within time", true);
+            if (timeOutTimer.IsRunning)
+            {
+                displayMessage("No response received within time", true);
+                authInProgress = false;
+            }            
+            timeOutTimer.Stop();          
 
         }
 
@@ -339,8 +345,20 @@ namespace GadgeteerApp3
                 try
                 {
                     clientSocket.Connect(ipep);
-                    MySocketFunctions.socketSendFile(clientSocket, capturedImage.PictureData);      //send photo bitmap to server with socket
-                    hashSession = MySocketFunctions.socketReadLine(clientSocket);       //reads the session hashstring received from server socket as response
+                    try
+                    {
+                        MySocketFunctions.socketSendFile(clientSocket, capturedImage.PictureData);
+                        hashSession = MySocketFunctions.socketReadLine(clientSocket);       //reads the session hashstring received from server socket as response
+
+                    }
+                    catch (SocketException) {
+                        clientSocket.Close();
+                        displayMessage("Network down", true);
+                        authInProgress = false;
+                        return;
+ 
+                    }
+                         //send photo bitmap to server with sockte
                     clientSocket.Close();
 
                     string jsonString = getJsonString(scannedRFID, hashSession); //parse user RFID and session hash into JSON string
@@ -349,11 +367,11 @@ namespace GadgeteerApp3
 
                     POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
 
-                    if (currenRequestType == 1)     //user had pushed ENTER
+                    if (currentRequestType == 1)     //user had pushed ENTER
                     {
                         webserverUrl = "http://192.168.1.2:8008/DEMOService/enter";
                     }
-                    else if (currenRequestType == 2)        //user had pushed EXIT
+                    else if (currentRequestType == 2)        //user had pushed EXIT
                     {
                         webserverUrl = "http://192.168.1.2:8008/DEMOService/exit";
                     }
@@ -371,6 +389,7 @@ namespace GadgeteerApp3
             else
             {
                 Debug.Print("Authentication failed because network is down");
+                multicolorLED.TurnRed();
                 displayMessage("Network down, check cable", true);
                 authInProgress = false;
                 timeOutTimer.Stop();
@@ -386,11 +405,11 @@ namespace GadgeteerApp3
             Hashtable hashTable = JsonSerializer.DeserializeString(strJson) as Hashtable;
             string responseCode = hashTable["code"].ToString();
             string respnseMessage = hashTable["message"].ToString();
-            string color = hashTable["color"].ToString();
-            
+               
 
             if (responseCode == "200") //entry of exit was success
             {
+                string color = hashTable["color"].ToString();
                 multicolorLED.TurnGreen();
                 displayColorBox(color);
                 
@@ -407,15 +426,20 @@ namespace GadgeteerApp3
         {
             if (color == "GREEN")
             {
-
+                txtRectangle.BackColor = Colors.Green;
             }
             else if (color == "YELLOW")
             {
+                txtRectangle.BackColor = Colors.Yellow;
 
             }
             else if (color == "RED")
             {
+                txtRectangle.BackColor = Colors.Red;
             }
+            txtRectangle.Visible = true;
+            mainWindow.Invalidate();
+            imgPhoto.Invalidate();
 
         }
 
@@ -439,7 +463,7 @@ namespace GadgeteerApp3
             }
             authInProgress = false;
             timeOutTimer.Stop();
-            currenRequestType = 0;
+            currentRequestType = 0;
 
         }
 
