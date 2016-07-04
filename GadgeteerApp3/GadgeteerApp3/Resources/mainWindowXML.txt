@@ -1,0 +1,15 @@
+<Glide Version="1.0.7">
+  <Window Name="mainWindow" Width="320" Height="240" BackColor="dce3e7">
+    <Button Name="btnExit" X="80" Y="140" Width="160" Height="50" Alpha="255" Text="EXIT" Font="6" FontColor="000000" DisabledFontColor="808080" TintColor="ff6666" TintAmount="50"/>
+    <Button Name="btnEnter" X="80" Y="70" Width="160" Height="50" Alpha="255" Text="ENTER" Font="6" FontColor="000000" DisabledFontColor="808080" TintColor="66ff99" TintAmount="50"/>
+	<Button Name="btnOk" X="80" Y="185" Width="160" Height="50" Alpha="255" Text="OK (5sec)" Font="5" FontColor="000000" DisabledFontColor="808080" TintColor="000000" TintAmount="0"/>
+    
+	<TextBlock Name="txtRectangle" X="78" Y="28" Width="164" Height="124" Alpha="255" Text="" TextAlign="Left" TextVerticalAlign="Top" Font="4" FontColor="0" BackColor="FF0000" ShowBackColor="True"/>
+
+	<TextBlock Name="txtText" X="10" Y="155" Width="300" Height="32" Alpha="255" Text="Text" TextAlign="Center" TextVerticalAlign="Middle" Font="4" FontColor="0" BackColor="000000" ShowBackColor="False"/>
+    <ProgressBar Name="barRfidTime" X="60" Y="195" Width="200" Height="16" Alpha="255" Direction="Right" MaxValue="100" Value="0"/>
+    <TextBlock Name="txtNetworkStatus" X="0" Y="0" Width="320" Height="20" Alpha="255" Text="Network status" TextAlign="Right" TextVerticalAlign="Top" Font="4" FontColor="0" BackColor="8888888" ShowBackColor="True"/>
+    <Image Name="imgPhoto" X="80" Y="30" Width="160" Height="120" Alpha="255"/>
+
+  </Window>
+</Glide>

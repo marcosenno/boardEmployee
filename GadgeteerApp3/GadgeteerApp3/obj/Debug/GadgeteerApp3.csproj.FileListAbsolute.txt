@@ -1,0 +1,679 @@
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.exe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.exe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdb
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdb
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.resources
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csproj.GenerateResource.Cache
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.tinyresources
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyResGen.cache
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.exe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.pdb
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.exe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.pdb
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.pdb
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyCLR_DebugReferences.cache
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.pdb
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.xml
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pe
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pe
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pdbx
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pdbx
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.dll
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.pdb
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.xml
+\\Mac\Home\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pe
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pdbx
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.dll
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.pdb
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.xml
+\\mac\home\documents\visual studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.resources
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csproj.GenerateResource.Cache
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.tinyresources
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyResGen.cache
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.dll
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.pdb
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.xml
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\Visual Studio 2013\Projects\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.exe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.exe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.exe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.dll
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.xml
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.resources
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.tinyresources
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyResGen.cache
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.exe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.pdb
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pe
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pdbx
+\\Mac\Home\Desktop\boardProject\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.exe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.exe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.exe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.dll
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.pdb
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.xml
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csprojResolveAssemblyReference.cache
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.resources
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csproj.GenerateResource.Cache
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.tinyresources
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyResGen.cache
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pdbx
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.exe
+C:\Users\swipe\Desktop\board\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\le\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\be\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.DaisyLink.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.Serial.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.SPI.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebClient.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Gadgeteer.WebServer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Glide.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Hardware.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Networking.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHI.Usb.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Button.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\LE\Json.NetMF.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.DaisyLink.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.Serial.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.SPI.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebClient.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Gadgeteer.WebServer.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Glide.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Hardware.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Networking.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHI.Usb.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZSpider.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Button.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.Camera.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.DisplayTE35.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.EthernetJ11D.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.MulticolorLED.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.RFIDReader.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\GTM.GHIElectronics.USBClientEDP.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\BE\Json.NetMF.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.dll
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.DaisyLink.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.Serial.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.SPI.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebClient.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Gadgeteer.WebServer.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Glide.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Hardware.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Networking.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHI.Usb.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GHIElectronics.Gadgeteer.FEZSpider.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Button.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.Camera.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.DisplayTE35.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.EthernetJ11D.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.MulticolorLED.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.RFIDReader.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\GTM.GHIElectronics.USBClientEDP.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\bin\Debug\Json.NetMF.xml
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.resources
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csproj.GenerateResource.Cache
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.Resources.tinyresources
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyResGen.cache
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\be\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pdbx
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.exe
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.pdb
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csprojResolveAssemblyReference.cache
+C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\Debug\TinyCLR_DebugReferences.cache
