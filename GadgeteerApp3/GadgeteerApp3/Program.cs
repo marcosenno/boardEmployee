@@ -39,10 +39,6 @@ namespace GadgeteerApp3
         private static GHI.Glide.UI.Button btnOk;
         private static ProgressBar barProgress;
         private static GHI.Glide.UI.Image imgPhoto;
-        private static TextBlock txtRectangle;
-
-        IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
-        Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
         // This method is run when the mainboard is powered up or reset.   
         void ProgramStarted()
@@ -102,8 +98,6 @@ namespace GadgeteerApp3
             camera.StopStreaming();
             btnEnter.Visible = true;
             btnExit.Visible = true;
-
-            txtRectangle.Visible = false;
 
             btnOk.Visible = false;
             txtScreen.Visible = false;
@@ -198,11 +192,7 @@ namespace GadgeteerApp3
 
         void displayMessage(string strMessage, bool OkEnabled)      //display message and optionally OK button with timer on the screen
         {
-<<<<<<< HEAD
-            Debug.Print("displayMessage() called, message:" +strMessage);
-=======
             Debug.Print("displayMessage() called, message:" + strMessage);
->>>>>>> fallback
             camera.StopStreaming();
             btnEnter.Visible = false;
             btnExit.Visible = false;
@@ -211,6 +201,7 @@ namespace GadgeteerApp3
             if (OkEnabled)
             {
                 OkPressed = false;
+                btnOk.Visible = true;
                 Thread OkThread = new Thread(OkWait);
                 OkThread.Start();
             }
@@ -225,8 +216,7 @@ namespace GadgeteerApp3
         {
             int i = 5;      //time in seconds the user has to press OK button until default screen is automatically displayed
             while ((i > 0) && (OkPressed == false))     //if "OK" button is pressed, OkPressed is set to "true" and thread exits
-            {
-                btnOk.Visible = true;
+            {                
                 btnOk.Text = "OK (" + i.ToString() + "sec)";
                 btnOk.Invalidate();
                 i--;
@@ -271,24 +261,13 @@ namespace GadgeteerApp3
         }
 
         void timeOutTimer_Tick(GT.Timer timer)      //called when specified time has elapsed
-        {
-<<<<<<< HEAD
-            authInProgress = false;
-            if (timeOutTimer.IsRunning)
-            {
-                clientSocket.Close();
-                displayMessage("No response received within time", true);
-            }
-            timeOutTimer.Stop();
-            
-=======
+        {            
             if (timeOutTimer.IsRunning)
             {
                 displayMessage("No response received within time", true);
                 authInProgress = false;
             }            
             timeOutTimer.Stop();          
->>>>>>> fallback
 
         }
 
@@ -338,7 +317,6 @@ namespace GadgeteerApp3
             if (authInProgress)
             {
                 displayMessage("Picture captured, connecting to server..", false);
-                displayColorBox("GREEN");
                 sendAuthRequest(scannedRFID, picture);
             }
             else
@@ -365,6 +343,8 @@ namespace GadgeteerApp3
                 string hashSession = "";
                 try
                 {
+                    IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
+                    Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                     clientSocket.Connect(ipep);
                     try
                     {
@@ -453,19 +433,11 @@ namespace GadgeteerApp3
             else if (color == "YELLOW")
             {
                 txtRectangle.BackColor = Colors.Yellow;
-<<<<<<< HEAD
-=======
-
->>>>>>> fallback
             }
             else if (color == "RED")
             {
                 txtRectangle.BackColor = Colors.Red;
             }
-            txtRectangle.Visible = true;
-            mainWindow.Invalidate();
-            imgPhoto.Invalidate();
-
             txtRectangle.Visible = true;
             mainWindow.Invalidate();
             imgPhoto.Invalidate();
