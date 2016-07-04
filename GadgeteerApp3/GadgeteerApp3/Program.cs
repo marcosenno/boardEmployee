@@ -11,6 +11,7 @@ using Gadgeteer.Modules.GHIElectronics;
 using GHI.Glide;
 using GHI.Glide.Display;
 using GHI.Glide.UI;
+using GHI.Glide.Geom;
 using Json.NETMF;
 using System.Net.Sockets;
 using System.Net;
@@ -32,11 +33,15 @@ namespace GadgeteerApp3
         private static Window mainWindow;
         private static TextBlock txtNetworkStatus;
         private static TextBlock txtScreen;
+        private static TextBlock txtRectangle;
         private static GHI.Glide.UI.Button btnEnter;
         private static GHI.Glide.UI.Button btnExit;
         private static GHI.Glide.UI.Button btnOk;
         private static ProgressBar barProgress;
         private static GHI.Glide.UI.Image imgPhoto;
+
+        IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
+        Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
         // This method is run when the mainboard is powered up or reset.   
         void ProgramStarted()
@@ -54,6 +59,7 @@ namespace GadgeteerApp3
             initWindow();   //initialize components in window
 
             Glide.MainWindow = mainWindow;
+
 
             rfidReader.IdReceived += rfidReader_IdReceived;
             camera.PictureCaptured += PictureCaptured;
@@ -73,11 +79,12 @@ namespace GadgeteerApp3
             btnOk = (GHI.Glide.UI.Button)mainWindow.GetChildByName("btnOk");
             txtNetworkStatus = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtNetworkStatus");
             txtScreen = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtText");
+            txtRectangle = (GHI.Glide.UI.TextBlock)mainWindow.GetChildByName("txtRectangle");
             barProgress = (GHI.Glide.UI.ProgressBar)mainWindow.GetChildByName("barRfidTime");
             imgPhoto = (GHI.Glide.UI.Image)mainWindow.GetChildByName("imgPhoto");
             imgPhoto.Stretch = true;    //fits the 320x240 streaming picture in 160x120 image component on window
+            displayDefaultScreen();
 
-            displayDefaultScreen(); 
 
             btnEnter.TapEvent += btnEnter_TapEvent;
             btnExit.TapEvent += btnExit_TapEvent;
@@ -95,7 +102,7 @@ namespace GadgeteerApp3
             btnEnter.Visible = true;
             btnExit.Visible = true;
 
-
+            txtRectangle.Visible = false;
 
             btnOk.Visible = false;
             txtScreen.Visible = false;
@@ -189,7 +196,7 @@ namespace GadgeteerApp3
 
         void displayMessage(string strMessage, bool OkEnabled)      //display message and optionally OK button with timer on the screen
         {
-            Debug.Print("displayMessage() called");
+            Debug.Print("displayMessage() called, message:" +strMessage);
             camera.StopStreaming();
             btnEnter.Visible = false;
             btnExit.Visible = false;
@@ -211,9 +218,9 @@ namespace GadgeteerApp3
         void OkWait()       //thread for displaying and refreshing OK button with remaining time
         {
             int i = 5;      //time in seconds the user has to press OK button until default screen is automatically displayed
-            btnOk.Visible = true;
             while ((i > 0) && (OkPressed == false))     //if "OK" button is pressed, OkPressed is set to "true" and thread exits
             {
+                btnOk.Visible = true;
                 btnOk.Text = "OK (" + i.ToString() + "sec)";
                 btnOk.Invalidate();
                 i--;
@@ -260,8 +267,13 @@ namespace GadgeteerApp3
         void timeOutTimer_Tick(GT.Timer timer)      //called when specified time has elapsed
         {
             authInProgress = false;
+            if (timeOutTimer.IsRunning)
+            {
+                clientSocket.Close();
+                displayMessage("No response received within time", true);
+            }
             timeOutTimer.Stop();
-            displayMessage("No response received within time", true);
+            
 
         }
 
@@ -311,6 +323,7 @@ namespace GadgeteerApp3
             if (authInProgress)
             {
                 displayMessage("Picture captured, connecting to server..", false);
+                displayColorBox("GREEN");
                 sendAuthRequest(scannedRFID, picture);
             }
             else
@@ -333,8 +346,7 @@ namespace GadgeteerApp3
             /* Code for sending rfid and picture to webserver */
             if (ethernetJ11D.IsNetworkUp)
             {
-                IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
-                Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                
                 string hashSession = "";
                 try
                 {
@@ -382,7 +394,8 @@ namespace GadgeteerApp3
         }
 
         void handleResponseMessage(string strJson){
-            //Debug.Print("Received response: " + strJson);
+      
+            Debug.Print("handleResponseMessage called");
             Hashtable hashTable = JsonSerializer.DeserializeString(strJson) as Hashtable;
             string responseCode = hashTable["code"].ToString();
             string respnseMessage = hashTable["message"].ToString();
@@ -407,22 +420,27 @@ namespace GadgeteerApp3
         {
             if (color == "GREEN")
             {
-
+                txtRectangle.BackColor = Colors.Green;
             }
             else if (color == "YELLOW")
             {
-
+                txtRectangle.BackColor = Colors.Yellow;
             }
             else if (color == "RED")
             {
+                txtRectangle.BackColor = Colors.Red;
             }
+
+            txtRectangle.Visible = true;
+            mainWindow.Invalidate();
+            imgPhoto.Invalidate();
 
         }
 
 
         void req_ResponseReceived(HttpRequest sender, HttpResponse response)
         {
-            Debug.Print("Response received");
+            Debug.Print("Response received");;
             if (authInProgress)
             {
               
