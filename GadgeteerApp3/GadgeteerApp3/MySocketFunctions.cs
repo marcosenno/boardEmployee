@@ -45,8 +45,7 @@ namespace GadgeteerApp3
             if (total_byte >= 0)
             {
             
-                try
-                {
+                
                     socketWriteLine(handler, total_byte.ToString());
                     while (total_byte != 0)
                     {
@@ -56,11 +55,7 @@ namespace GadgeteerApp3
 
 
                     }                   
-                }
-                catch (SocketException)
-                {
-                   
-                }
+                
             }
 
 
