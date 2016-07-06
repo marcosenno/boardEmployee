@@ -113,6 +113,10 @@ namespace GadgeteerApp3
                 currentRequestType = 2;      //2 - exit
                 startRfidWaiting();
             }
+            else
+            {
+                displayMessage("Unable to connect, check cable", true);
+            }
         }
 
         void btnEnter_TapEvent(object sender)        // ENTER button pressed on screen
@@ -122,6 +126,10 @@ namespace GadgeteerApp3
                 //Debug.Print("btnEnter pressed");
                 currentRequestType = 1;      //1 - enter
                 startRfidWaiting();
+            }
+            else
+            {
+                displayMessage("Unable to connect, check cable", true);
             }
         }
 
