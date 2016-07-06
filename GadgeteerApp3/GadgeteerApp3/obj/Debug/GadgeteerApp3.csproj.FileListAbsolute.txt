@@ -819,3 +819,4 @@ C:\Users\Joonas\Documents\GitHub\boardEmployee\GadgeteerApp3\GadgeteerApp3\obj\D
 \\Mac\Home\Desktop\boardProject\GadgeteerApp3\GadgeteerApp3\obj\Debug\le\GadgeteerApp3.pdbx
 \\Mac\Home\Desktop\boardProject\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.exe
 \\Mac\Home\Desktop\boardProject\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.pdb
+\\Mac\Home\Desktop\boardProject\GadgeteerApp3\GadgeteerApp3\obj\Debug\GadgeteerApp3.csprojResolveAssemblyReference.cache

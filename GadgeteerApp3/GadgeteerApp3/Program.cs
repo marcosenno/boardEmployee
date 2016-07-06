@@ -59,15 +59,12 @@ namespace GadgeteerApp3
 
             Glide.MainWindow = mainWindow;
 
-
             rfidReader.IdReceived += rfidReader_IdReceived;
             camera.PictureCaptured += PictureCaptured;
             camera.CurrentPictureResolution = Camera.PictureResolution.Resolution320x240;
             camera.TakePictureStreamTimeout = new System.TimeSpan(0, 0, 0);
             timeOutTimer.Tick += timeOutTimer_Tick;
             camera.BitmapStreamed += camera_BitmapStreamed;
-
-        
         }
 
 
@@ -84,12 +81,9 @@ namespace GadgeteerApp3
             imgPhoto.Stretch = true;    //fits the 320x240 streaming picture in 160x120 image component on window
             displayDefaultScreen();
 
-
             btnEnter.TapEvent += btnEnter_TapEvent;
             btnExit.TapEvent += btnExit_TapEvent;
             btnOk.TapEvent += btnOk_TapEvent;
-
-
         }
 
         void displayDefaultScreen()     //display default screen with only ENTER and EXIT buttons
@@ -113,16 +107,22 @@ namespace GadgeteerApp3
 
         void btnExit_TapEvent(object sender)        // EXIT button pressed on screen
         {
-            //Debug.Print("btnExit pressed");
-            currentRequestType = 2;      //2 - exit
-            startRfidWaiting();
+            if (ethernetJ11D.IsNetworkUp)
+            {
+                //Debug.Print("btnExit pressed");
+                currentRequestType = 2;      //2 - exit
+                startRfidWaiting();
+            }
         }
 
         void btnEnter_TapEvent(object sender)        // ENTER button pressed on screen
         {
-            //Debug.Print("btnEnter pressed");
-            currentRequestType = 1;      //1 - enter
-            startRfidWaiting();
+            if (ethernetJ11D.IsNetworkUp)
+            {
+                //Debug.Print("btnEnter pressed");
+                currentRequestType = 1;      //1 - enter
+                startRfidWaiting();
+            }
         }
 
         void startRfidWaiting()     //display screen with camerastream, text and progress bar waiting for RFID
@@ -132,7 +132,6 @@ namespace GadgeteerApp3
 
             btnEnter.Visible = false;
             btnExit.Visible = false;
-
 
             btnOk.Visible = false;
 
@@ -156,14 +155,12 @@ namespace GadgeteerApp3
             }
 
 
-            Thread RfidThread = new Thread(RfidWait);       
+            Thread RfidThread = new Thread(RfidWait);
             RfidThread.Start();     //start thread to update progress bar
-
-
-
         }
 
-        void RfidWait(){
+        void RfidWait()
+        {
             int progressCount = 0;
             while ((progressCount <= 20) && (waitingForRfid == true))       //if RFID is read, waitingForRfid is set to "false" and thread exits
             {
@@ -172,14 +169,14 @@ namespace GadgeteerApp3
                 barProgress.Invalidate();
                 progressCount++;
                 Thread.Sleep(1000);      //total waiting time = 20 * 1000ms = 20s
-                
+
             }
             if ((progressCount > 20) && (waitingForRfid == true))       //if waiting time has passed then stop waiting and display message
             {
                 cancelWaitingRfid();
                 displayMessage("No RFID detected within time", true);
             }
-                                  
+
         }
 
         void camera_BitmapStreamed(Camera sender, Bitmap e)
@@ -217,7 +214,7 @@ namespace GadgeteerApp3
         {
             int i = 5;      //time in seconds the user has to press OK button until default screen is automatically displayed
             while ((i > 0) && (OkPressed == false))     //if "OK" button is pressed, OkPressed is set to "true" and thread exits
-            {                
+            {
                 btnOk.Text = "OK (" + i.ToString() + "sec)";
                 btnOk.Invalidate();
                 i--;
@@ -227,7 +224,7 @@ namespace GadgeteerApp3
             {
                 displayDefaultScreen();
             }
-            
+
         }
 
         void btnOk_TapEvent(object sender)
@@ -244,8 +241,6 @@ namespace GadgeteerApp3
             camera.StopStreaming();
             barProgress.Visible = false;
             mainWindow.Invalidate();
-            
-            
         }
 
 
@@ -262,13 +257,13 @@ namespace GadgeteerApp3
         }
 
         void timeOutTimer_Tick(GT.Timer timer)      //called when specified time has elapsed
-        {            
+        {
             if (timeOutTimer.IsRunning)
             {
                 displayMessage("No response received within time", true);
                 authInProgress = false;
-            }            
-            timeOutTimer.Stop();          
+            }
+            timeOutTimer.Stop();
 
         }
 
@@ -296,7 +291,7 @@ namespace GadgeteerApp3
                 {
                     //Debug.Print("RFID received but authentication already in progress");
                 }
-               
+
             }
             else
             {
@@ -339,56 +334,49 @@ namespace GadgeteerApp3
             /* Code for sending rfid and picture to webserver */
             if (ethernetJ11D.IsNetworkUp)
             {
-                
                 string hashSession = "";
+
+                IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
+                Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                clientSocket.ReceiveTimeout = TIMEOUT;
+                clientSocket.SendTimeout = TIMEOUT;
+                
                 try
                 {
-                    IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.1.2"), 11000);
-                    Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                    clientSocket.ReceiveTimeout = TIMEOUT;
-                    clientSocket.SendTimeout = TIMEOUT;
                     clientSocket.Connect(ipep);
-                    try
-                    {
-                        MySocketFunctions.socketSendFile(clientSocket, capturedImage.PictureData);
-                        hashSession = MySocketFunctions.socketReadLine(clientSocket);       //reads the session hashstring received from server socket as response
-
-                    }
-                    catch (SocketException) {
-                        clientSocket.Close();
-                        displayMessage("Network down", true);
-                        authInProgress = false;
-                        return;
- 
-                    }
-                         //send photo bitmap to server with sockte
-                    clientSocket.Close();
-
-                    string jsonString = getJsonString(scannedRFID, hashSession); //parse user RFID and session hash into JSON string
-                    //Debug.Print("JSON string: " + jsonString);
-                    //string jsonString = "{\"rfid\":\"" + scannedRFID + "\",\"session\":\"" + hashSession + "\"}";
-
-                    POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
-
-                    if (currentRequestType == 1)     //user had pushed ENTER
-                    {
-                        webserverUrl = "http://192.168.1.2:8008/DEMOService/enter";
-                    }
-                    else if (currentRequestType == 2)        //user had pushed EXIT
-                    {
-                        webserverUrl = "http://192.168.1.2:8008/DEMOService/exit";
-                    }
-                    var req = HttpHelper.CreateHttpPostRequest(webserverUrl, jsonContent, "application/json");
-                    req.ResponseReceived += new HttpRequest.ResponseHandler(req_ResponseReceived);
-                    timeOutTimer.Start();       //start timeout timer (30 sec)
-                    req.SendRequest();
-                    //Debug.Print("Request sent!");
+                    MySocketFunctions.socketSendFile(clientSocket, capturedImage.PictureData);
+                    hashSession = MySocketFunctions.socketReadLine(clientSocket);       //reads the session hashstring received from server socket as response
                 }
-                catch
+                catch (Exception e)
                 {
-                    //Debug.Print("Socket error");
-
+                    displayMessage("Network down", true);
+                    authInProgress = false;
+                    return;
                 }
+                finally
+                {
+                    clientSocket.Close();
+                }
+
+                string jsonString = getJsonString(scannedRFID, hashSession); //parse user RFID and session hash into JSON string
+                //Debug.Print("JSON string: " + jsonString);
+                //string jsonString = "{\"rfid\":\"" + scannedRFID + "\",\"session\":\"" + hashSession + "\"}";
+
+                POSTContent jsonContent = POSTContent.CreateTextBasedContent(jsonString);
+
+                if (currentRequestType == 1)     //user had pushed ENTER
+                {
+                    webserverUrl = "http://192.168.1.2:8008/DEMOService/enter";
+                }
+                else if (currentRequestType == 2)        //user had pushed EXIT
+                {
+                    webserverUrl = "http://192.168.1.2:8008/DEMOService/exit";
+                }
+                var req = HttpHelper.CreateHttpPostRequest(webserverUrl, jsonContent, "application/json");
+                req.ResponseReceived += new HttpRequest.ResponseHandler(req_ResponseReceived);
+                timeOutTimer.Start();       //start timeout timer (30 sec)
+                req.SendRequest();
+                //Debug.Print("Request sent!");
             }
             else
             {
@@ -404,26 +392,27 @@ namespace GadgeteerApp3
              */
         }
 
-        void handleResponseMessage(string strJson){
-      
+        void handleResponseMessage(string strJson)
+        {
+
             //Debug.Print("handleResponseMessage called");
             Hashtable hashTable = JsonSerializer.DeserializeString(strJson) as Hashtable;
             string responseCode = hashTable["code"].ToString();
             string respnseMessage = hashTable["message"].ToString();
-               
+
 
             if (responseCode == "200") //entry of exit was success
             {
                 string color = hashTable["color"].ToString();
                 multicolorLED.TurnGreen();
                 displayColorBox(color);
-                
+
             }
             else  //Error response received
             {
                 multicolorLED.TurnRed();
-            }           
-            
+            }
+
             displayMessage(respnseMessage, true);
         }
 
@@ -453,7 +442,7 @@ namespace GadgeteerApp3
             //Debug.Print("Response received");;
             if (authInProgress)
             {
-              
+
                 //Debug.Print("Response text: " + response.Text);
                 if (response.StatusCode == "200")
                 {
@@ -475,7 +464,7 @@ namespace GadgeteerApp3
         private void rfidReader_MalformedIdReceived(RFIDReader sender, EventArgs e)
         {
             //Debug.Print("Malformed ID received");
-            
+
         }
 
     }
